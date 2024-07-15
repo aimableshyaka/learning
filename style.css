@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    padding: 0!important;
+}
+.navbar-nav li{
+    padding: 0 10px;
+    
+}
+.navbar-nav li a{
+    color: #fff;
+}
+#banner{
+    background-image:linear-gradient(to right,#a517ba,#5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+#banner a{
+    color: #fff;
+    text-decoration: none;
+}
+.play-btn{
+    width: 45px;
+    margin: 20px;
+}
+.bottom-image{
+    width: 100%;
+}
+
+
+
+#services{
+        padding: 80px 0;
+}
+
+.Services-image{
+    width: 100px;
+    margin-top: 20px;
+}
+.Services{
+    padding: 20px;
+}
+.Services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+#Service .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image:linear-gradient(to right,#a517ba,#5f1782);
+}
